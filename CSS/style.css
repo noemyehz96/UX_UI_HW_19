@@ -1,0 +1,182 @@
+body {
+    background-image: linear-gradient(#f9f7f2,white);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size:12px;
+    padding: 5px 10px;
+    background-color: beige;
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+}
+
+.inline-block img{
+    display:inline-block;
+    vertical-align: top;
+    width:50px
+}
+
+.logo {
+    width: 50px;
+    padding: 1%;
+    text-align: center;
+}
+ 
+
+.inline-block ul{
+   
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    font-family: 'Josefin Slab', serif;
+    font-size: 28px;
+}
+
+nav p{
+    padding: 20px;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+li {
+    width: 50%;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.heroImg img {
+    width: 100px;
+    border-radius: 50%;
+}
+.content {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 44px;
+}
+
+.subcontent {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width:50%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+}
+
+
+.heroImg p{
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.workGrid{
+    display:grid;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item4";
+}
+
+.workGrid h4{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight:bold;
+    font-size: 36px;
+}
+
+.myWork h1{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+.myWork h3{
+    background-color: #D9EDDF;
+    text-align: center;
+    padding:20px;
+}
+
+.workGrid p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 28px;
+}
+
+.item1 {
+    grid-area: item1;
+    opacity: 0.5;
+}
+
+.item2 {
+    grid-area: item2;
+    margin: auto;
+    background-color: #E9E2CF;
+    height:502px;
+    padding:40px;
+    opacity: 0.5;
+}
+
+.item3{
+    grid-area: item3;
+    opacity: 0.5;
+}
+
+.item4{
+    grid-area: item4;
+    margin: auto;
+    background-color: #E9E2CF;
+    width:557px;
+    height:502px;
+    padding:40px;
+    opacity: 0.5;
+    ;
+}
+
+.mySkills h1{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+.flexContainer{
+    font-family: 'Josefin Slab', serif;
+    font-size: 27px;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.div1{
+    padding-right:80px;
+}
+
+.div2{
+    padding-right:80px;
+}
+
+footer {
+    background-color: #D9EDDF;
+}
+
+footer ul{
+    display:inline-block;
+    vertical-align: top;
+}
+
