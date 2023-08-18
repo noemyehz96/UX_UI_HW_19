@@ -18,11 +18,12 @@ button {
 .inline-block img{
     display:inline-block;
     vertical-align: top;
-    width:50px
+    width:50px;
+    border-radius: 20%;
 }
 
 .logo {
-    width: 50px;
+    width: 0px;
     padding: 1%;
     text-align: center;
 }
@@ -124,7 +125,6 @@ li {
 
 .item2 {
     grid-area: item2;
-    margin: auto;
     background-color: #E9E2CF;
     height:502px;
     padding:40px;
