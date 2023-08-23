@@ -93,6 +93,9 @@ li {
     grid-template-areas: 
     "item1 item2"
     "item3 item4";
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .workGrid h4{
@@ -107,10 +110,17 @@ li {
     font-size: 36px;
 }
 
-.myWork h3{
-    background-color: #D9EDDF;
+.allProjects{
     text-align: center;
-    padding:20px;
+    padding:5px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 21px;
+    margin-bottom: 200px;
+}
+
+.allProjects:hover{
+    background-color: #D9EDDF;
+    -webkit-transition: 0.5s;
 }
 
 .workGrid p{
@@ -118,33 +128,39 @@ li {
     font-size: 28px;
 }
 
+.workGrid img{
+    width: 999px;
+}
+
 .item1 {
     grid-area: item1;
-    opacity: 0.5;
 }
+
 
 .item2 {
     grid-area: item2;
-    background-color: #E9E2CF;
     height:502px;
     padding:40px;
-    opacity: 0.5;
+}
+
+.item2:hover {
+    background-color: #E9E2CF;
+    -webkit-transition: 0.5s;
 }
 
 .item3{
     grid-area: item3;
-    opacity: 0.5;
 }
 
 .item4{
     grid-area: item4;
-    margin: auto;
-    background-color: #E9E2CF;
-    width:557px;
     height:502px;
     padding:40px;
-    opacity: 0.5;
-    ;
+}
+
+.item4:hover {
+    background-color: #E9E2CF;
+    -webkit-transition: 0.5s;
 }
 
 .mySkills h1{
@@ -161,6 +177,7 @@ li {
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 200px;
 }
 
 .div1{
@@ -171,10 +188,6 @@ li {
     padding-right:80px;
 }
 
-
-footer {
-    background-color: #D9EDDF;
-}
 
 footer ul{
     display:inline-block;
@@ -198,4 +211,44 @@ footer ul{
 
 html {
     scroll-behavior: smooth;
+}
+
+footer{
+    background-color: #D9EDDF;
+    padding: 10px;
+    height: 400px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+}
+
+.reachOut{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom:40px;
+}
+
+.email{
+    text-align: center;
+}
+
+.email img{
+    width: 20px;
+    height: 20px;
+}
+
+footer ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    justify-content: flex-start;
+    font-family: 'Josefin Slab', serif;
+    font-size: 28px;
+    padding:40px;
+    
+}
+
+footer p{
+    padding: 10px;;
 }
